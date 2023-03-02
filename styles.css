@@ -7,6 +7,7 @@ body {
 
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 
@@ -30,7 +31,32 @@ body {
 }
 
 .signup-forms {
-  height: 300px;
-  width: min(100vw, 600px);
+  margin: 12px 12px;
+  width: min(90vw, 448px);
   color: white;
+  background-color: rgba(00, 00, 00, 60%);
+
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.input-container {
+  display: flex;
+}
+.signup-forms input {
+  border: 2px solid turquoise;
+  border-radius: 5px;
+  width: 200px;
+  height: 25px;
+  margin-top: 3px;
+}
+
+.top-info, .bottom-info {
+  margin: 24px;
+  width: min(90vw, 448px)
 }
