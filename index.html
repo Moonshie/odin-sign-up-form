@@ -18,34 +18,38 @@
 
     <fieldset class="signup-forms">
       <legend>Sign Up Here!</legend>
-      <div>
-        <label for="first_name">First Name:</label><br>
-        <input type="text" id="first_name" name="first_name">
+      <div class="input-container">
+        <label for="first_name">FIRST NAME*</label><br>
+        <input type="text" id="first_name" name="first_name" required minlength="2" maxlength="20">
       </div>
-      <div>
-        <label for="last_name">Last Name:</label><br>
-        <input type="text" id="last_name" name="last_name">
+      <div class="input-container">
+        <label for="last_name">LAST NAME*</label><br>
+        <input type="text" id="last_name" name="last_name" required minlength="2" maxlength="20">
       </div>
-      <div>
-        <label for="email">E-Mail:</label><br>
-        <input type="email" id="email" name="email">
+      <div class="input-container">
+        <label for="email">E-MAIL*</label><br>
+        <input type="email" id="email" name="email" required>
       </div>
-      <div>
-        <label for="phone_number">Phone Number:</label><br>
+      <div class="input-container">
+        <label for="phone_number">PHONE NUMBER</label><br>
         <input type="text" id="phone_number" name="phone_number">
       </div>
-      <div>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password">
+      <div class="input-container">
+        <label for="password">PASSWORD*</label><br>
+        <input type="password" id="password" name="password" required minlength="5" maxlength="20" placeholder="5 to 20 characters">
       </div>
-      <div>
-        <label for="confirm_password">Confirm Password:</label><br>
-        <input type="password" id="confirm_password" name="confirm_password">
+      <div class="input-container">
+        <label for="confirm_password">CONFIRM PASSWORD*</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required minlength="5" maxlength="20" placeholder="5 to 20 characters">
       </div>
     </fieldset>
 
     <div class="bottom-info">
       Some other text
+    </div>
+
+    <div class="confirm-button">
+      <button>Create Account</button>
     </div>
   </div>
 </body>
