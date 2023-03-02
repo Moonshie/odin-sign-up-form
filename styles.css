@@ -31,6 +31,6 @@ body {
 
 .signup-forms {
   height: 300px;
-  width: min(100vw, 1000px);
+  width: min(100vw, 600px);
   color: white;
 }
