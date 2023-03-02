@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 66vh 100vh;
   margin: 0px;
-  background-color: black;
+  background-color: rgb(19, 24, 49);
 
   display: flex;
   align-items: center;
@@ -70,7 +70,6 @@ body {
 .signup-forms input:invalid {
   border: 3px solid #fa0025c9;
 }
-.signup-forms input
 .top-info, .bottom-info, .confirm-button {
   margin: 24px;
   width: min(90vw, 448px)
