@@ -1,7 +1,27 @@
 body {
   background-image: url('./bg.webp');
   background-repeat: no-repeat;
-  background-size: auto 100vh;
+  background-size: 66vh 100vh;
+  margin: 0px;
 
   background-color: black;
+}
+
+
+.imgbox {
+  width: 66vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#attribution {
+  color: gray;
+  background-color: #ffffff10;
+  text-align: center;
+  position: ;
+}
+#attribution a {
+  color: gray;
+  text-decoration: none;
 }
