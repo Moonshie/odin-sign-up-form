@@ -3,8 +3,10 @@ body {
   background-repeat: no-repeat;
   background-size: 66vh 100vh;
   margin: 0px;
-
   background-color: black;
+
+  display: flex;
+  align-items: center;
 }
 
 
@@ -16,12 +18,19 @@ body {
   justify-content: flex-end;
 }
 #attribution {
+  width: min(100vw, 66vh);
+  position: fixed;
   color: gray;
   background-color: #ffffff10;
   text-align: center;
-  position: ;
 }
 #attribution a {
   color: gray;
   text-decoration: none;
+}
+
+.signup-forms {
+  height: 300px;
+  width: min(100vw, 1000px);
+  color: white;
 }
