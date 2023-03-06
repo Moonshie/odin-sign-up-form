@@ -64,11 +64,14 @@ body {
 .signup-forms input:focus {
   border: 3px solid white;
 }
-.signup-forms input:valid {
+.signup-forms input:required {
   border: 3px solid #0feadb;
 }
 .signup-forms input:invalid {
   border: 3px solid #fa0025c9;
+}
+.signup-forms input:placeholder-shown {
+  border: 3px solid black;
 }
 .top-info, .bottom-info, .confirm-button {
   margin: 24px;
